@@ -1,13 +1,12 @@
 body {
     background: url("../images/leaves.png");
     width: 960px;
-    text-align: center
-    
-}
+  
+ }
 
 .footer {
     border-top: 8px solid #4aaaa5
-}
+ }
 
 input[type=submit] {
     background-color: #4CAF50;
