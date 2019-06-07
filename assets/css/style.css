@@ -1,12 +1,41 @@
 body {
     background: url("../images/leaves.png");
     width: 960px;
-  
  }
 
 .footer {
-    border-top: 8px solid #4aaaa5
+    border-top: 8px solid #4aaaa5,;
+    height: 50px;
+    text-align: center;
  }
+
+Nav ul {
+    list-style-type: none;
+}
+
+Nav li {
+    display: inline; block;
+}
+
+ .myname {
+     
+ }
+
+ nav {
+     float: right;
+ }
+ .maincontent {
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-height: calc(100vh - 70px);
+    width: 960px
+  }
+
+.img {
+    float: left;
+    padding: 10px;
+    margin: 10 px
+}
 
 input[type=submit] {
     background-color: #4CAF50;
@@ -16,7 +45,7 @@ input[type=submit] {
     cursor: pointer;
   }
 
-  input[type=text], select, textarea {
+input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ffffff; 
@@ -26,7 +55,3 @@ input[type=submit] {
     resize: vertical
   }
 
-  .container {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
