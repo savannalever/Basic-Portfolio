@@ -1,57 +1,121 @@
 body {
-    background: url("../images/leaves.png");
+    background: url("../images/tree_bark.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
+    margin: 120px;
+    margin-top: 20px;
+}
+
+
+ .myname {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    border: 5px solid #82af89;
+    background-color: #82af89;
+    width: 300px;
+    text-align: center;
  }
 
-.footer {
-    border-top: 8px solid #4aaaa5,;
+ .header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #82af89;
+ } 
+
+ .footer {
+    background-color: #9c9c9c;
+    border: 5px solid #9c9c9c;
+    border-top: 5px solid #82af89;
     height: 50px;
     text-align: center;
  }
 
-Nav ul {
-    list-style-type: none;
-}
-
-Nav li {
-    display: inline; block;
-}
-
- .myname {
-     
+ Nav li {
+    display: inline; block:
  }
 
- nav {
+ a {
+  text-decoration: none;
+  color: #82af89
+ }
+ .Nav {
      float: right;
  }
  .maincontent {
-    background-color: #f2f2f2;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     min-height: calc(100vh - 70px);
-    width: 960px
   }
 
-.img {
+ .img {
     float: left;
-    padding: 10px;
-    margin: 10 px
-}
+    padding-right: 15px;
+    padding-bottom: 15px;
+ }
 
-input[type=submit] {
-    background-color: #4CAF50;
+ input[type=submit] {
+    background-color: #82af89;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
 
-input[type=text], select, textarea {
+ input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #ffffff; 
+    border: 1px solid #c0bfbf; 
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px;
     resize: vertical
+  }
+
+  img.hangman{
+  
+  }
+  img.rpg{
+    
+  }
+  img.trivia{
+    
+  }
+  img.rutgers{
+    
+  }
+  img.rock{
+    
+  }
+  
+  div.hangman{
+ 
+  }
+
+  div.rpg{
+  
+  }
+  div.trivia{
+    
+  }
+  div.rutgers{
+   
+  }
+  div.rock{
+  
+  }
+  
+  h3#hangman{
+  
+  }
+  h3#rpg{
+    
+  }
+  h3#trivia{
+  
+  }
+  h3#rutgers{
+    
+  }
+  h3#rock{
+   
   }
 
