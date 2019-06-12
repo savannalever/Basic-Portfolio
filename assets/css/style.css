@@ -4,6 +4,7 @@
 header {
    width: 960px;
    margin: 0 auto;
+   margin-top: 15px;
 }
 h1 {
    font-family: 'Georgia', Times, Times New Roman, serif;
@@ -72,54 +73,7 @@ a {
     resize: vertical
   }
 
-  img.hangman{
-  
-  }
-  img.rpg{
-    
-  }
-  img.trivia{
-    
-  }
-  img.rutgers{
-    
-  }
-  img.rock{
-    
-  }
-  
-  div.hangman{
  
-  }
-
-  div.rpg{
-  
-  }
-  div.trivia{
-    
-  }
-  div.rutgers{
-   
-  }
-  div.rock{
-  
-  }
-  
-  h3#hangman{
-  
-  }
-  h3#rpg{
-    
-  }
-  h3#trivia{
-  
-  }
-  h3#rutgers{
-    
-  }
-  h3#rock{
-   
-  }
 .footer {
    background-color: #9c9c9c;
    border: 5px solid #9c9c9c;
@@ -129,5 +83,217 @@ a {
    clear: both;
    margin-top: 20px;
    padding-top: 10px;
+   color: white;
+}
+
+.portfolio {
+   display: block;
+   background-color: white;
+   padding: 10px; 
+   height:1000px;
+   margin:0 auto;
+   padding-bottom: 20px;
+} 
+img.hangman {
+   position: relative;
+   float:left;
+   top:20px;
+}
+img.rpg{
+   position: relative;
+   float: right;
+   margin-right: 100px;
+   top:20px;
+}
+img.trivia{
+   position: relative;
+   float:left;
+   top:60px;
+}
+img.rutgers{
+   position: relative;
+   float: right;
+   top:60px;
+   margin-right: 100px;
+}
+img.rock{
+   position: relative;
+   float:left;
+   top:120px;
+}
+
+div.hangman{
+   display: block;
+   position: relative;
+   background-color: #82af89;
+   width:300px;
+   float:left;
+   bottom: 340px;
+   right:300px;
+   color:white;
+
+}
+
+
+div.rpg{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float: right;
+   width: 300px;
+   right: 100px;
+   bottom: 400px;
+   color:white;
+
+}
+div.trivia{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float:left;
+   width: 300px;
+   right:300px;
+   bottom:160px;
+   color:white;
+ 
+
+}
+div.rutgers{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float: right;
+   width: 300px;
+   right:100px;
+   bottom: 220px;
+   color:white;
+ 
+
+}
+div.rock{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float:left;
+   width: 300px;
+   right:300px;
+   bottom:-30px;
+   color:white;
+
+}
+
+h3#hangman {
+   clear: both;
+   position: relative;
+   left:100px;
+}
+h3#rpg {
+   position: relative;
+   left:100px;
+}
+h3#trivia {
+   position: relative;
+   left:100px;
+}
+h3#rutgers {
+   position: relative;
+   left:80px;
+}
+h3#rock {
+   position: relative;
+   left:80px;
+}
+
+@media screen and (max-width: 800px){
+ img.hangman {
+ width:200px; 
+ height:150px;
+ float:left;
+ padding:5px;
+}
+ img.rpg {
+ width:200px; 
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+}
+ img.trivia {
+ width:200px;
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+ top: 20px;
+}
+ img.rutgers {
+ width:200px;
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+}
+ img.rock {
+ width:200px; 
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+}
+ div.hangman {
+ width: 190px;
+ float: none;
+ bottom:660px;
+ left:5px;
+ padding: 0px 
+}
+ h3#hangman {
+ font-size: medium;
+ left:60px;
+}  
+ div.rpg {
+ width: 190px; 
+ float: none;
+ bottom:550px;
+ left:5px;
+ padding: 0px 
+}
+ h3#rpg {
+ font-size: medium;
+ left:60px;
+}  
+ div.trivia {
+ width: 190px;
+ float: none;
+ bottom:430px;
+ left:5px;
+ padding: 0px 
+}
+ h3#trivia {
+ font-size: medium;
+ left:60px;
+} 
+ div.rutgers {
+ width: 190px; 
+ float: none;
+ bottom:270px;
+ left:5px;
+ padding: 0px 
+}
+ h3#rutgers {
+ font-size: medium;
+ left:30px;
+} 
+ div.rock {
+ width: 190px; 
+ float: none;
+ bottom:90px;
+ left:5px;
+ padding: 0px 
+}
+ 
+ h3#rock{
+ font-size: medium;
+ left:30px;} 
 }
 
