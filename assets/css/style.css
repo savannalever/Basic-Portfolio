@@ -7,7 +7,7 @@ header {
    margin-top: 15px;
 }
 h1 {
-   font-family: 'Georgia', Times, Times New Roman, serif;
+   font-family:'Satisfy', cursive;
    color: #ffffff;
    border: 5px solid #82af89;
    background-color: #82af89;
@@ -15,7 +15,7 @@ h1 {
    width: 33%;
    float: left;
    margin-top: 20px;
-   margin-bottom: 0%;
+   margin-bottom: 0;
    padding: 20px;
 }
 .everythingelse {
@@ -34,11 +34,15 @@ h1 {
 a {
   color: #82af89;
   text-decoration: none;
+  transition: 0.5s;
+ }
+ a:hover {
+    font-weight: 600;
  }
  nav {
      float: right;
      margin-bottom: 0px;
-     margin-top: 60px;
+     margin-top: 65px;
  }
  .maincontent {
     background-color: rgb(255, 255, 255);
@@ -48,6 +52,11 @@ a {
     border: 3px solid #dddddd;
     width: 960px;
     margin: 0 auto;
+
+  }
+
+  p {
+   text-indent: 2.0em;
   }
 
  .img {
@@ -84,6 +93,7 @@ a {
    margin-top: 20px;
    padding-top: 10px;
    color: white;
+   font-size: smaller;
 }
 
 .portfolio {
