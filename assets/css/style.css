@@ -32,10 +32,13 @@ h1 {
  } 
 
 a {
-  color: #82af89;
+  color: #ffffff;
   text-decoration: none;
   transition: 0.5s;
+  background-color: #82af89;
+  border: 5px solid #82af89;
  }
+  
  a:hover {
     font-weight: 600;
  }
@@ -43,6 +46,9 @@ a {
      float: right;
      margin-bottom: 0px;
      margin-top: 65px;
+     /* color: #82af89;
+     text-decoration: none;
+     transition: 0.5s; */
  }
  .maincontent {
     background-color: rgb(255, 255, 255);
@@ -132,7 +138,7 @@ img.rock{
    top:120px;
 }
 
-div.hangman{
+div.Psychic{
    display: block;
    position: relative;
    background-color: #82af89;
@@ -192,7 +198,7 @@ div.rock{
 
 }
 
-h3#hangman {
+h3#Psychic{
    clear: both;
    position: relative;
    left:100px;
@@ -250,14 +256,14 @@ h3#rock {
  margin-right:600px;
  padding:5px;
 }
- div.hangman {
+ div.Psychic {
  width: 190px;
  float: none;
  bottom:660px;
  left:5px;
  padding: 0px 
 }
- h3#hangman {
+ h3#Psychic {
  font-size: medium;
  left:60px;
 }  
