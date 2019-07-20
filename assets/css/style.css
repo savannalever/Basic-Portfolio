@@ -115,7 +115,7 @@ img.hangman {
    float:left;
    top:20px;
 }
-img.rpg{
+img.Gifs{
    position: relative;
    float: right;
    margin-right: 100px;
@@ -151,7 +151,7 @@ div.Psychic{
 }
 
 
-div.rpg{
+div.Gifs {
    display: block;
    position: relative;
    background-color:#82af89;
@@ -203,7 +203,7 @@ h3#Psychic{
    position: relative;
    left:100px;
 }
-h3#rpg {
+h3#Gifs {
    position: relative;
    left:100px;
 }
@@ -227,7 +227,7 @@ h3#rock {
  float:left;
  padding:5px;
 }
- img.rpg {
+ img.Gifs {
  width:200px; 
  height:150px;
  float:none;
@@ -267,14 +267,14 @@ h3#rock {
  font-size: medium;
  left:60px;
 }  
- div.rpg {
+ div.Gifs {
  width: 190px; 
  float: none;
  bottom:550px;
  left:5px;
  padding: 0px 
 }
- h3#rpg {
+ h3#Gifs {
  font-size: medium;
  left:60px;
 }  
