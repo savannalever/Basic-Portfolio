@@ -5,6 +5,8 @@
    <meta charset="UTF-8">
    <title>About Me!</title>
    <script src="https://kit.fontawesome.com/a2576b575e.js"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -12,51 +14,81 @@
 
 
 <header>
-   <h1>Savanna Lever <i class="fas fa-coffee"></i></h1>
-   <nav>
-      <a href="index.html">About</a> |
-      <a href="portfolio.html">Portfolio</a> |
-      <a href="contact.html">Contact</a> |
-   </nav>
+   <div class="row">
+      <!-- My page header -->
+      <div class="col-8">
+         <h1>Savanna Lever <i class="fas fa-coffee"></i></h1>
+      </div>
+      <!-- Links to my other pages -->
+      <div class="col-4">
+         <nav>
+            <a id="no" href="index.html">About</a> |
+            <a id="no" href="portfolio.html">Portfolio</a> |
+            <a id="no" href="contact.html">Contact</a> |
+         </nav>
+      </div>
+   </div>
 </header>
 
 <div class="everythingelse">
    <br>
+
    <div class="maincontent">
+
+      <!-- Specific header -->
       <h2 class="header">About Me</h2>
 
       <hr>
+      <div class="row">
+         <div class="col-9">
+            <!-- Some more information about me -->
+            <p><img class="img" src="assets/images/Savanna.jpg" alt="Savanna Lever" height="200px" width="200px">Hello!
+               My name is Savanna Lever,
+               I'm currently a student at the University of Central Florida, studying coding! This is my first attempt
+               at
+               creating a portfolio
+               page to collect and show off all of my completed projects. If you'd like to see them they're over on my
+               portfolio page. If you
+               have any questions or feedback for me I'd love to hear from you! Please feel free to contact me on my
+               Contact
+               page. There,
+               my email and social media pages will be linked and you can reach me there.
+            </p>
 
-      <p><img class="img" src="assets/images/Savanna.jpg" alt="Savanna Lever" height="200px" width="200px">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum felis aliquet, tempus massa eget,
-         euismod augue.
-         Maecenas et blandit urna, sed accumsan libero. Phasellus scelerisque tortor risus, lacinia vulputate nisl
-         consectetur sit amet.
-         Suspendisse luctus id leo sed tempor. In pulvinar vulputate ornare. Morbi pretium risus a pellentesque mattis.
-         Phasellus in est eu felis accumsan sollicitudin quis sed tortor.
-         Sed ut lectus mi. Donec sollicitudin finibus magna eu consectetur. Proin at erat felis. Nulla accumsan
-         fringilla iaculis. Suspendisse cursus eros in viverra facilisis. Nulla tristique tempus nisi in aliquam.</p>
+            <p>Originally, I'm from South Carolina. I grew up in the Lexington area only twenty minutes outside of
+               Columbia. I
+               first attended University
+               at the University of South Carolina, studying Business Administration. At the time I was just working a
+               boring
+               9-5 job, but in 2018 I
+               was hired to work at Walt Disney World full-time so I moved down here in April and I've lived here ever
+               since.
+               I'm currently still employed
+               at Disney, but I would love to explore more opportunities in front-end coding.
+            </p>
 
-      <p>Proin placerat lacinia sollicitudin. Vestibulum pharetra ligula at erat sodales euismod. Nam molestie diam quis
-         tempus accumsan. Quisque consectetur viverra eleifend. Duis tristique sapien eget purus volutpat condimentum.
-         Vestibulum sed congue leo, et molestie magna. Nulla arcu risus, sagittis ut est id, rhoncus commodo purus.
-         Praesent tempor molestie quam eget vestibulum. Vivamus tempor purus pharetra sapien sodales egestas. Morbi
-         venenatis mauris dolor,
-         non iaculis elit aliquet at. Praesent et quam fringilla, commodo mi ut, vehicula dolor. Ut vulputate diam id
-         felis maximus lacinia. Morbi quis nulla dolor. Etiam consequat orci bibendum mollis efficitur. Nullam laoreet
-         ultricies tellus, a consectetur magna ultricies at. Proin sed nisl turpis.</p>
-
-      <p>Aenean libero nunc, ultricies at dolor sit amet, rutrum sodales tellus. Nam lacinia tempor nisl, ut feugiat
-         urna interdum eu. Morbi condimentum vitae risus sit amet tempor. Cras venenatis varius mi et sagittis. Vivamus
-         odio est, scelerisque non sapien efficitur,
-         elementum varius velit. Suspendisse volutpat, metus sed convallis ullamcorper, urna sapien tempus est, ut porta
-         quam eros ac tortor. Ut tristique feugiat imperdiet.</p>
+            <p>I have a passion for coffee, and an even bigger passion for front-end web design. </p>
+         </div>
+         <div class="col-3">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title header">Contact Me</h5>
+                  <a href="https://www.linkedin.com/in/savannalever/"><img id="links" src="assets/images/linkedin.png" height="50px" width="50px"></a>
+                  <a href="https://github.com/savannalever"><img id="links" src="assets/images/git.png" height="50px" width="50px"></a>
+               </div>
+            </div>
+         </div>
+      </div>
    </div>
+</div>
 
-   <!--the footer-->
-   <div class="footer">
-      <footer>Copyright©</footer>
-   </div>
+
+
+
+<!-- The footer-->
+<div class="footer">
+   <footer>Copyright©</footer>
+</div>
 
 
 </div>

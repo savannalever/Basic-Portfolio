@@ -6,17 +6,25 @@ header {
    margin: 0 auto;
    margin-top: 15px;
 }
+#links {
+  position: relative;
+  margin: auto;
+}
+
 h1 {
    font-family:'Satisfy', cursive;
    color: #ffffff;
    border: 5px solid #82af89;
    background-color: #82af89;
    text-align: center;
-   width: 33%;
+   width: 60%;
    float: left;
    margin-top: 20px;
    margin-bottom: 0;
    padding: 20px;
+}
+.card-title {
+   text-align: center;
 }
 .everythingelse {
    background: url("../images/tree_bark.png");
@@ -29,9 +37,10 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #82af89;
     clear: both;
+    padding-left: 30px;
  } 
 
-a {
+#no {
   color: #ffffff;
   text-decoration: none;
   transition: 0.5s;
@@ -313,3 +322,9 @@ h3#rock {
  left:30px;} 
 }
 
+.container1, .container2, .container3, .container4, .container5 {
+   position: relative;
+   height: 200px;
+   width: 200px;
+   margin: auto;
+}
